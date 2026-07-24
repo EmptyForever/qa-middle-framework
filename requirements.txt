@@ -1,0 +1,50 @@
+# === Core Testing ===
+pytest==8.3.4
+pytest-xdist==3.6.1
+pytest-cov==6.0.0
+pytest-rerunfailures==15.0
+pytest-asyncio==0.25.0
+
+# === HTTP & API ===
+requests==2.32.3
+aiohttp==3.11.10
+
+# === UI Testing ===
+selenium==4.27.1
+webdriver-manager==4.0.2
+appium-python-client==5.1.0
+
+# === Databases ===
+SQLAlchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.1
+
+# === Data Generation ===
+factory-boy==3.3.1
+Faker==33.1.0
+
+# === Validation & Config ===
+pydantic==2.10.4
+pydantic-settings==2.6.1
+jsonschema==4.23.0
+
+# === Reports ===
+allure-pytest==2.13.5
+pytest-html==4.1.1
+
+# === Code Quality ===
+ruff==0.8.4
+black==24.10.0
+mypy==1.14.0
+pre-commit==4.0.1
+
+# === Mock Services ===
+fastapi==0.115.5
+uvicorn==0.34.0
+
+# === Kafka ===
+aiokafka==0.11.0
+kafka-python==2.0.2
+
+# === Security ===
